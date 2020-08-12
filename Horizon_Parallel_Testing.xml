@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Function" parallel="tests" thread-count="2">
+  <test name="ChromBrowser">
+  <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.piit.bootcamp.Horizon.Execution_HorizonNJ_TC1"></class>
+<class name="com.piit.bootcamp.Horizon.Exe_FinDoctor_TC2"></class>
+<class name="com.piit.bootcamp.Horizon.Exe_Contact_TC3"></class>
+    </classes>
+  </test> 
+
+
+
+
+  <test name="FFBrowser">
+  <parameter name="Browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.piit.bootcamp.Horizon.Execution_HorizonNJ_TC1"></class>
+<class name="com.piit.bootcamp.Horizon.Exe_FinDoctor_TC2"></class>
+<class name="com.piit.bootcamp.Horizon.Exe_Contact_TC3"></class>
+    </classes>
+  </test> 
+</suite>

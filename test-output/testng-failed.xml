@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Function]" parallel="tests">
-  <test thread-count="2" name="ChromBrowser(failed)" parallel="tests">
-    <parameter name="Browser" value="chrome"/>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.piit.bootcamp.Horizon.Execution_HorizonNJ_TC1">
         <methods>
@@ -12,5 +11,5 @@
         </methods>
       </class> <!-- com.piit.bootcamp.Horizon.Execution_HorizonNJ_TC1 -->
     </classes>
-  </test> <!-- ChromBrowser(failed) -->
-</suite> <!-- Failed suite [Function] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
